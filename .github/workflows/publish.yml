@@ -15,6 +15,6 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
       - name: Publish package
-        run: mvn --batch-mode deploy -DskipTests -DskipITs -pl -debezium-connector-oracle -pl -debezium-microbenchmark-oracle
+        run: mvn --batch-mode deploy -DskipTests -DskipITs -Dcheckstyle.skip=true -pl -debezium-connector-oracle -pl -debezium-microbenchmark-oracle
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
