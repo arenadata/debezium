@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-parent</artifactId>
         <version>3.1.1.Final</version>
         <relativePath>../debezium-parent/pom.xml</relativePath>
@@ -14,19 +14,19 @@
     <dependencies>
         <!-- Runtime Dependencies -->
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-storage-kafka</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-storage-file</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-ddl-parser</artifactId>
         </dependency>
         <dependency>
@@ -46,24 +46,24 @@
 
         <!-- Test dependencies -->
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-core</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-embedded</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-embedded</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-testing-testcontainers</artifactId>
             <scope>test</scope>
             <exclusions>

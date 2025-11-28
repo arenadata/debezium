@@ -38,7 +38,7 @@ In order to use {prodname}'s Testcontainers integration, add the following depen
 [source,xml,subs="verbatim,attributes"]
 ----
 <dependency>
-  <groupId>io.debezium</groupId>
+  <groupId>io.arenadata.debezium</groupId>
   <artifactId>debezium-testing-testcontainers</artifactId>
   <version>{debezium-version}</version>
   <scope>test</scope>

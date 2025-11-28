@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <parent>
-    <groupId>io.debezium</groupId>
+    <groupId>io.arenadata.debezium</groupId>
     <artifactId>debezium-testing</artifactId>
     <version>3.1.1.Final</version>
     <relativePath>../pom.xml</relativePath>
@@ -174,63 +174,63 @@
 
       <!-- Debezium dependencies -->
       <dependency>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-connector-mysql</artifactId>
         <classifier>plugin</classifier>
         <type>zip</type>
         <version>${version.debezium.connector}</version>
       </dependency>
       <dependency>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-connector-mariadb</artifactId>
         <classifier>plugin</classifier>
         <type>zip</type>
         <version>${version.debezium.connector}</version>
       </dependency>
       <dependency>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-connector-postgres</artifactId>
         <classifier>plugin</classifier>
         <type>zip</type>
         <version>${version.debezium.connector}</version>
       </dependency>
       <dependency>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-connector-sqlserver</artifactId>
         <classifier>plugin</classifier>
         <type>zip</type>
         <version>${version.debezium.connector}</version>
       </dependency>
       <dependency>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-connector-mongodb</artifactId>
         <classifier>plugin</classifier>
         <type>zip</type>
         <version>${version.debezium.connector}</version>
       </dependency>
       <dependency>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-connector-db2</artifactId>
         <classifier>plugin</classifier>
         <type>zip</type>
         <version>${version.debezium.connector}</version>
       </dependency>
       <dependency>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-connector-oracle</artifactId>
         <classifier>plugin</classifier>
         <type>zip</type>
         <version>${version.debezium.connector}</version>
       </dependency>
       <dependency>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-connector-jdbc</artifactId>
         <classifier>plugin</classifier>
         <type>zip</type>
         <version>${version.debezium.connector}</version>
       </dependency>
       <dependency>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-scripting</artifactId>
         <type>zip</type>
         <version>${version.debezium.connector}</version>
@@ -240,7 +240,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.debezium</groupId>
+      <groupId>io.arenadata.debezium</groupId>
       <artifactId>debezium-testing-testcontainers</artifactId>
       <version>${project.version}</version>
     </dependency>
@@ -479,7 +479,7 @@
     </dependency>
 
     <dependency>
-      <groupId>io.debezium</groupId>
+      <groupId>io.arenadata.debezium</groupId>
       <artifactId>debezium-connector-jdbc</artifactId>
       <type>test-jar</type>
       <scope>test</scope>
@@ -533,7 +533,7 @@
       <id>oracle-image</id>
       <dependencies>
         <dependency>
-          <groupId>io.debezium</groupId>
+          <groupId>io.arenadata.debezium</groupId>
           <artifactId>debezium-connector-oracle</artifactId>
           <classifier>plugin</classifier>
           <type>zip</type>

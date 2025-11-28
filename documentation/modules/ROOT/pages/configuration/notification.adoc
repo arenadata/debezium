@@ -440,7 +440,7 @@ You must include these compile dependencies in your project's `pom.xml` file, as
 [source,xml]
 ----
 <dependency>
-    <groupId>io.debezium</groupId>
+    <groupId>io.arenadata.debezium</groupId>
     <artifactId>debezium-core</artifactId>
     <version>${version.debezium}</version> // <1>
 </dependency>

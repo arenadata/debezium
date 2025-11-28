@@ -186,7 +186,7 @@ These compile dependencies must be included in your project's `pom.xml`, as show
 [source,xml]
 ----
 <dependency>
-    <groupId>io.debezium</groupId>
+    <groupId>io.arenadata.debezium</groupId>
     <artifactId>debezium-api</artifactId>
     <version>${version.debezium}</version> // <1>
 </dependency>

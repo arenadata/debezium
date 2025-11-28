@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-parent</artifactId>
         <version>3.1.1.Final</version>
         <relativePath>../debezium-parent/pom.xml</relativePath>
@@ -14,7 +14,7 @@
     <dependencies>
         <!-- Runtime dependencies -->
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-connector-binlog</artifactId>
         </dependency>
         <dependency>
@@ -35,30 +35,30 @@
 
         <!-- Testing dependencies -->
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-connector-binlog</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-core</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-embedded</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-embedded</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.debezium</groupId>
+            <groupId>io.arenadata.debezium</groupId>
             <artifactId>debezium-testing-testcontainers</artifactId>
             <scope>test</scope>
             <exclusions>
@@ -515,7 +515,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
             </plugin>
             <plugin>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-schema-generator</artifactId>
                 <version>${project.version}</version>
                 <executions>
@@ -590,7 +590,7 @@
                         <artifactId>maven-assembly-plugin</artifactId>
                         <dependencies>
                             <dependency>
-                                <groupId>io.debezium</groupId>
+                                <groupId>io.arenadata.debezium</groupId>
                                 <artifactId>debezium-assembly-descriptors</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
@@ -838,7 +838,7 @@
                         <artifactId>maven-assembly-plugin</artifactId>
                         <dependencies>
                             <dependency>
-                                <groupId>io.debezium</groupId>
+                                <groupId>io.arenadata.debezium</groupId>
                                 <artifactId>debezium-assembly-descriptors</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
@@ -916,7 +916,7 @@
                         <artifactId>maven-assembly-plugin</artifactId>
                         <dependencies>
                             <dependency>
-                                <groupId>io.debezium</groupId>
+                                <groupId>io.arenadata.debezium</groupId>
                                 <artifactId>debezium-assembly-descriptors</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
@@ -992,7 +992,7 @@
                         <artifactId>maven-assembly-plugin</artifactId>
                         <dependencies>
                             <dependency>
-                                <groupId>io.debezium</groupId>
+                                <groupId>io.arenadata.debezium</groupId>
                                 <artifactId>debezium-assembly-descriptors</artifactId>
                                 <version>${project.version}</version>
                             </dependency>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>io.debezium</groupId>
+        <groupId>io.arenadata.debezium</groupId>
         <artifactId>debezium-build-parent</artifactId>
         <version>3.1.1.Final</version>
         <relativePath>../pom.xml</relativePath>
@@ -697,209 +697,209 @@
 
             <!-- Debezium artifacts -->
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-sink</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-storage-jdbc</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-storage-kafka</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-storage-azure-blob</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-storage-s3</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-storage-file</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-storage-redis</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-storage-configmap</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-storage-tests</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-scripting</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-scripting-languages</artifactId>
                 <type>pom</type>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-embedded</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-jdbc</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-postgres</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-postgres-test</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-mysql</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-mariadb</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-binlog</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-ddl-parser</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-mongodb</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-sqlserver</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-oracle</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-db2</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-spanner</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-vitess</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-informix</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-cassandra-3</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-cassandra-4</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-testing-testcontainers</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-schema-generator</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-quarkus-outbox</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-quarkus-outbox-deployment</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-ai-embeddings</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <!-- Debezium test artifacts -->
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-core</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-embedded</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-mysql</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-connector-binlog</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>
-                <groupId>io.debezium</groupId>
+                <groupId>io.arenadata.debezium</groupId>
                 <artifactId>debezium-ai-embeddings</artifactId>
                 <version>${project.version}</version>
                 <type>test-jar</type>

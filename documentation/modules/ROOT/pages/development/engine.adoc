@@ -43,12 +43,12 @@ For Maven, this entails adding the following to your application's POM:
 [source,xml]
 ----
 <dependency>
-    <groupId>io.debezium</groupId>
+    <groupId>io.arenadata.debezium</groupId>
     <artifactId>debezium-api</artifactId>
     <version>${version.debezium}</version>
 </dependency>
 <dependency>
-    <groupId>io.debezium</groupId>
+    <groupId>io.arenadata.debezium</groupId>
     <artifactId>debezium-embedded</artifactId>
     <version>${version.debezium}</version>
 </dependency>
@@ -62,7 +62,7 @@ For example, the following can be added to your application's Maven POM file so 
 [source,xml]
 ----
 <dependency>
-    <groupId>io.debezium</groupId>
+    <groupId>io.arenadata.debezium</groupId>
     <artifactId>debezium-connector-mysql</artifactId>
     <version>${version.debezium}</version>
 </dependency>
@@ -73,7 +73,7 @@ Or for the MongoDB connector:
 [source,xml]
 ----
 <dependency>
-    <groupId>io.debezium</groupId>
+    <groupId>io.arenadata.debezium</groupId>
     <artifactId>debezium-connector-mongodb</artifactId>
     <version>${version.debezium}</version>
 </dependency>
