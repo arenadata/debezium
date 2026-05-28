@@ -237,6 +237,11 @@
         <name>Maven Central Snapshots</name>
         <url>${publish.snapshot.url}</url>
       </snapshotRepository>
+      <repository>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/arenadata/debezium</url>
+      </repository>
     </distributionManagement>
 
     <repositories>
@@ -248,6 +253,11 @@
                 <enabled>true</enabled>
                 <updatePolicy>never</updatePolicy>
             </snapshots>
+        </repository>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/arenadata/*</url>
         </repository>
     </repositories>
 
